@@ -1,0 +1,47 @@
+print("Dark Net & Market Index / Guide")
+print("Version 02.02.02")
+#Introduction
+
+name = input("\n Enter your name: ")
+print("\n Welcome, " + name)
+#Allows User input
+
+if name == "DEV":
+    print("\n Welcome back, DEVELOPER.")
+#This allows DEVELOPERS to feel recognized(?)
+
+print("All options: zones, operations, archtypes, sites, version, history, documentation")
+#This is to list the optiona
+
+document = input()
+
+if document == "zones":
+    print("White-Zone: legal | Borderline-Gray-Zone: Practices mixed with legality and with illegal. But even ths illegal parts are truly legal, just extremely ambigious | Gray-Zone: Where most practices lose the inhibition to care about the law, but still not diving into illegal things, just slowly diving into it | Borderline-Black-Zone: Where those who were in the gray zone stops caring fully. Diving deep into crime, often because of needs & wants | Black-Zone: Often called the 'Point of no Return' by those who are still in the White-Zone or Gray-Zone. Where everything has some illegality in it.")
+
+if document == "operations":
+    print("Small-Time Operations: Acters doing small acts of crime in small quantities. Usually harder to track, but does less harm than others | Middle-Time Operations: Actors doing big acts in small quantities. Hard to spot, does more harm | Big-Time Operation: Big acts in lrge quantities, usually things like a well-organised militia, cartel, etc.")
+
+if document == "archtypes":
+    print("Tourist: New or visiting | Resident: Knows things that an actor would without being one | Operator: an actor, doing acts of crime or activities | Blue: Law Enforcement | Dog: Actors marketing sexual products | White Hat: Those not part of the law, doing vigilante behaviour.")
+
+if document == "sites":
+    print("Darknet Army Forum: Forum of [edgy] sellers, varying from different things | DigAI: An uncensored AI. Willing to help with any projects | WSS: A Darknet chatroom, full of a different types of people, and featured on videos from people like Tranium | Tor.Link: A site that is a hub for other sites | NEXTCCV.CC: A Dark Net market ranging from pre-made scripts, to CCV | CRYPTBB: A forum and a market [FURTHER RESEARCH REQUIRED] | DEF-CON: A legal site that uses onion for protection, where those of Cybersecurity, government cyber jobs, and more come together | DIGITAL THRIFT SHOP (PL): A market selling cheap items on the Dark Net ranging from fake IDs to stolen items of medium to high value | GERMANIA: A Germanic-based market selling items [FURTHER RESEARCH REQUIRED] | BLACKMARK: A market selling a high variety of items [FURTHER RESEARCH REQUIRED] | THE HIDDEN WIKI: Not a site on the Dark Net but is a wiki-style hub to other sites that are Dark Net| Onionindex: Not a site on the Dark Net but is a site tht leads to other sites that are Dark Net [FURTHER RESEARCH REQUIRED] | BREAKING BAD FORUM: A forum and a market place selling items to make the illegal substance Breaking Bad revolves around, also selling recipes alike | Onionlinks: a Dark Net hub that links to other Dark Net sites | Onion Identity Services: A market that sells fake IDs, fake Passports, and more | Dread: A onion site themed like Reddit, the oriignal went down and now only copy-cats are left | Excavator: A Dark Net hub that leads to other sites, even those that should never be interacted with.")
+
+if document == "security":
+    print("Dark Net Army Forum: 7/10; Standard Dark Net security issues | DigAI: 8.5/10; Possible privacy issues due to it originating from corporate hands | WSS: 9/10; Besides standard security issues in Dark Net sites, it is wonderful | Tor.Link: 9.5/10; It being legal prevents government from looking at it's users most of the time[!!], although it can lead to unsafe sites | NEXTCCV.CC: 4/10; Likely scammers, honey-pots, and federal agents lurking | CRYPTBB: ?/10 | DEF-CON: 5/10; Depends on who you are. Due to it normally having federal agents, it might not be safe for certain types of people | DIGITAL THRIFT SHOP (PL): 4/10; Most likely is scammers, honey-pots, with federal agents lurking due to low prices of normally-high-priced items | GERMANIA: ?/10 | BLACKMARK: ?/10 | THE HIDDEN WIKI: 9/10; Standard web safety issues | Onionindex: 8.6/10; Some sites can/are unsafe and honey-pots. Plus security on the site itself seems lack-luster | BREAKING BAD FORUM: 7/10; Seems like average security, almost constant moderator activity | Onionlinks: 5/10; Normal security problems | Dread: 3/10; Mostly because only fakes who go by the same name exist, original site was took down | Excavator: 4/10; Leads to honey-pot sites, mostly foreign sites [foreign to americans]")
+
+if document == "documentation":
+    print("The nature of this program is educational [for those who are not willing to get on the Dark Net/Market] and a safety guide for those who are on the Dark Net. The legality of this program is lawfully in a gray-zone. As it depends on the users purpose of consuming this program.")
+
+if document == "version":
+    print("Version: Public-Alpha")
+
+if document == "history":
+    print(" Version 00.00.00: added the introduction | Version 00.01.00: added the core options | Version 00.01.01: fixed the options selection | 01.01.01: added the 'not in' function | 01.01.02: fixed some typos | 02.01.02: finishes the core options of the program. It is now ready to be released to the public. Updates of course will still take place | 02.02.01: changed program name from 'Dark Web & Market Index / Guide' to 'Dark Net & Market Index / Guide' as it is better fitting.")
+
+#These are the options.
+
+
+elif document not in ["zones", "operations", "archtypes", "sites", "security", "version", "history", "documentation"]:
+    print("Invalid selection, please restart the machine, and select the options listed above, " + name + ".")
+#This is so we can list out the available options and warn users when they select an invalid option.
