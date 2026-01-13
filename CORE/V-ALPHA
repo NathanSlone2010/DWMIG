@@ -1,5 +1,5 @@
 print("Dark Web & Market Index / Guide")
-print("Version 01.01.01")
+print("Version 01.01.02")
 #Introduction
 
 name = input("\n Enter your name: ")
