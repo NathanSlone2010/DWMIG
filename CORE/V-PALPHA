@@ -43,7 +43,8 @@ if document == "donations":
     print("Donation Links: https://cash.app/$onixiti")
 #These are the options.
 
-
 elif document not in ["zones", "operations", "archtypes", "sites", "security", "version", "history", "documentation", "donations"]:
     print("Invalid selection, please restart the machine, and select the options listed above, " + name + ".")
 #This is so we can list out the available options and warn users when they select an invalid option.
+
+print("\n Thank you to all who donate. The following names are those who has donated (handtyped): ")
