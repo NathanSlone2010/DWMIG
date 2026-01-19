@@ -1,0 +1,71 @@
+print("Dark Net & Market Index / Guide")
+print("Version 03.05.03")
+#Introduction
+
+name = input("\n Name: ")
+#This is to allow actual name input
+
+if name == "DEV":
+    print("\n Welcome back, DEVELOPER.")
+    print("\n All options: zones, operations, archtypes, sites, security, version, history, documentation, donations, developer, exit")
+else:
+    print("Welcome, " + name)
+    print("\n All options: zones, operations, archtypes, sites, security, version, history, documentation, donations, exit")
+#This is to allow dev-specific things, user-input of name, and list all options.
+
+
+while True:
+    document = input("\n Input: ")
+
+    if document == "exit":
+        print("Program ending...")
+        break
+#This allows the loop.
+    if document == "zones":
+        print("\n White-Zone: legal | Borderline-Gray-Zone: Practices mixed with legality ... | Black-Zone: Often called the 'Point of no Return'...")
+
+    elif document == "operations":
+        print("\n Small-Time Operations: Actors doing small acts of crime ...")
+
+    elif document == "archtypes":
+        print("\n Tourist: New or visiting | Resident: Knows things ...")
+
+    elif document == "sites":
+        print("\n Darknet Army Forum: Forum of [edgy] sellers ...")
+
+    elif document == "security":
+        print("\n Dark Net Army Forum: 7/10; Standard Dark Net security issues ...")
+
+    elif document == "documentation":
+        print("\n The nature of this program is educational ...")
+
+    elif document == "version":
+        print("Version: Published-Beta")
+
+    elif document == "history":
+        print("Version history ...")
+
+    elif document == "donations":
+        print("Donation Links: https://cash.app/$onixiti")
+
+    elif document == "developer":
+        print("\n Warning: If you are a developer, please use the term 'DEV' ...")
+
+    else:
+        print("Invalid selection, please select an option listed above, " + name + ".")
+#These are the options.
+  
+
+if document not in ["zones", "operations", "archtypes", "sites", "security", "version", "history", "documentation", "donations", "developer", "exit"]:
+  print("Invalid selection, please restart the machine, and select the options listed above, " + name + ".")
+#This is so we can list out the available options and warn users when they select an invalid option.
+
+
+supporters = ["tempuser1", "tempuser2"]
+
+
+print("\n Thank you to all who donated. The following names are those who have donated (handtyped):")
+for user in supporters:
+    print("- " + user)
+print("\n The support from you all is what keeps the project alive! I thank you endlessly!")
+#This is so we can thank those who are generous as we do not deserve their kindness.
