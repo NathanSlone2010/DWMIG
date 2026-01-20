@@ -7,7 +7,7 @@ name = input("\n Name: ")
 
 if name == "DEV":
     print("\n Welcome back, DEVELOPER.")
-    print("\n All options: zones, operations, archtypes, sites, security, version, history, documentation, donations, developer, exit")
+    print("\n All options: zones, operations, archetypes, sites, security, version, history, documentation, donations, developer, exit")
 else:
     print("Welcome, " + name)
     print("\n All options: zones, operations, archtypes, sites, security, version, history, documentation, donations, exit")
@@ -21,10 +21,10 @@ while True:
         break
 #This allows the loop.
     elif document == "zones":
-        print("\n White-Zone: legal | Borderline-Gray-Zone: Practices mixed with legality and with illegal. But even ths illegal parts are truly legal, just extremely ambigious | Gray-Zone: Where most practices lose the inhibition to care about the law, but still not diving into illegal things, just slowly diving into it | Borderline-Black-Zone: Where those who were in the gray zone stops caring fully. Diving deep into crime, often because of needs & wants | Black-Zone: Often called the 'Point of no Return' by those who are still in the White-Zone or Gray-Zone. Where everything has some illegality in it.")
+        print("\n White-Zone: legal | Borderline-Gray-Zone: Practices mixed with legality and with illegal. But even the illegal parts are truly legal, just extremely ambiguous | Gray-Zone: Where most practices lose the inhibition to care about the law, but still not diving into illegal things, just slowly diving into it | Borderline-Black-Zone: Where those who were in the gray zone stops caring fully. Diving deep into crime, often because of needs & wants | Black-Zone: Often called the 'Point of no Return' by those who are still in the White-Zone or Gray-Zone. Where everything has some illegality in it.")
 
     elif document == "operations":
-        print("\n Small-Time Operations: Acters doing small acts of crime in small quantities. Usually harder to track, but does less harm than others | Middle-Time Operations: Actors doing big acts in small quantities. Hard to spot, does more harm | Big-Time Operation: Big acts in lrge quantities, usually things like a well-organised militia, cartel, etc.")
+        print("\n Small-Time Operations: Acters doing small acts of crime in small quantities. Usually harder to track, but does less harm than others | Middle-Time Operations: Actors doing big acts in small quantities. Hard to spot, does more harm | Big-Time Operation: Big acts in large quantities, usually things like a well-organised militia, cartel, etc.")
 
     elif document == "archtypes":
         print("\n Tourist: New or visiting | Resident: Knows things that an actor would without being one | Operator: an actor, doing acts of crime or activities | Blue: Law Enforcement | Dog: Actors marketing sexual products | White Hat: Those not part of the law, doing vigilante behaviour.")
@@ -61,10 +61,10 @@ if document not in ["zones", "operations", "archtypes", "sites", "security", "ve
 
 
 supporters = ["tempuser1", "tempuser2"]
-
-
 print("\n Thank you to all who donated. The following names are those who have donated (handtyped):")
 for user in supporters:
     print("- " + user)
 print("\n The support from you all is what keeps the project alive! I thank you endlessly!")
 #This is so we can thank those who are generous as we do not deserve their kindness.
+
+#write words here to find it anywhere in the code:
