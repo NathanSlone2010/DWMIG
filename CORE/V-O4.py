@@ -1,5 +1,5 @@
 print("Dark Net & Market Index / Guide")
-print("Version O-04.08.08")
+print("Version O-04.09.08")
 #Introduction
 
 name = input("\n Name: ")
@@ -7,10 +7,10 @@ name = input("\n Name: ")
 
 if name == "DEV":
     print("\n Welcome back, DEVELOPER.")
-    print("\n All options: zones, operations, archetypes, sites, security, version, history, documentation, donations, developer, exit")
+    print("\n All options: zones, operations, archetypes, sites, security, version, history, documentation, donations, developer, developer recommendations [devreq], exit")
 else:
     print("Welcome, " + name)
-    print("\n All options: zones, operations, archetypes, sites, security, version, history, documentation, donations, exit")
+    print("\n All options: zones, operations, archetypes, sites, security, version, history, documentation, donations, recommendations exit")
 #This is to allow dev-specific things, user-input of name, and list all options.
 
 
@@ -42,13 +42,19 @@ while True:
         print("Version: Official Release")
 
     elif document == "history":
-        print("Version 00.00.00: added the introduction | Version 00.01.00: added the core options | Version 00.01.01: fixed the options selection | 01.01.01: added the 'not in' function | 01.01.02: fixed some typos | 02.01.02: finishes the core options of the program. It is now ready to be released to the public. Updates of course will still take place | 02.02.01: changed program name from 'Dark Web & Market Index / Guide' to 'Dark Net & Market Index / Guide' as it is better fitting | 02.03.02: Added a donation link, to further fund projects and machines I use to make the projects | 02.04.02: Added a 'developer' section | 02.05.02: Added an add-on for developers | 02.05.03: Added a clear input section, so users know what to do | 03.05.03: Added the loop mechanism | 03.06.03: Forgot to remove the placeholder for Version History, sorry | 03.06.03: I am never doing placeholders again | 3.06.04: Fixed some typos. Should be clean for now | 3.06.05: Changed a few security ratings based off research | 3.06.06: Fixed some issues I accidentally created | 3.07.06: Removed the redundant 'not in' statement | 3.07.07: Added version shorthand next to the version-numbers | 3.07.08: Fixed some typos | 4.07.08: Program officially launched. First number changed to align. Will be going by 'V-O<>, O for OFFICIAL | 4.08.08: Added a largest donation amount section and changes the bulletin list from '-' to '#'")
+        print("Version 00.00.00: added the introduction | Version 00.01.00: added the core options | Version 00.01.01: fixed the options selection | 01.01.01: added the 'not in' function | 01.01.02: fixed some typos | 02.01.02: finishes the core options of the program. It is now ready to be released to the public. Updates of course will still take place | 02.02.01: changed program name from 'Dark Web & Market Index / Guide' to 'Dark Net & Market Index / Guide' as it is better fitting | 02.03.02: Added a donation link, to further fund projects and machines I use to make the projects | 02.04.02: Added a 'developer' section | 02.05.02: Added an add-on for developers | 02.05.03: Added a clear input section, so users know what to do | 03.05.03: Added the loop mechanism | 03.06.03: Forgot to remove the placeholder for Version History, sorry | 03.06.03: I am never doing placeholders again | 3.06.04: Fixed some typos. Should be clean for now | 3.06.05: Changed a few security ratings based off research | 3.06.06: Fixed some issues I accidentally created | 3.07.06: Removed the redundant 'not in' statement | 3.07.07: Added version shorthand next to the version-numbers | 3.07.08: Fixed some typos | 4.07.08: Program officially launched. First number changed to align. Will be going by 'V-O<>, O for OFFICIAL | 4.08.08: Added a largest donation amount section and changes the bulletin list from '-' to '#' | 4.09.08: Added two more options, Recommendations and Developer Recommendations.")
 
     elif document == "developer":
         print("\n Warning: If you are a developer, please use the term 'DEV' as your name | All work done by you will be credited to you on GitHub.")
 
     elif document == "donations":
         print("Donation Links: https://cash.app/$onixiti")
+
+    elif document == "recommendations":
+        print("\n The Recommended equipment for accessing and safely using the Dark Net is the official Tor Browser on Personal Comouters and Laptops and Onion Browser on Smart Phones. The recommended VPN is ProtonVPN which will allow up to 10 regions for free.")
+
+    elif document == "devreq":
+        print("\n Recommended equipment for developers accessing and safely using the Dark Net is Tor Browser on Personal Computers and Laptops and Onion Browser on Smart Devices. Mullvad VPN is the best privacy-first VPN. Although has no free options.")
 
     else:
         print("Invalid selection, please select an option listed above, " + name + ".")
@@ -63,4 +69,4 @@ print("Largest donation amount: $0")
 print("\n The support from you all is what keeps the project alive! I thank you endlessly!")
 #This is so we can thank those who are generous as we do not deserve their kindness.
 
-#write words here to find it anywhere in the code: 
+#write words here to find it anywhere in the code:
