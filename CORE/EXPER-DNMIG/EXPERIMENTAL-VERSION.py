@@ -1,5 +1,4 @@
 print("Darknet & Market Index / Guide, Experimental")
-print("Version E")
 #Introduction
 
 
