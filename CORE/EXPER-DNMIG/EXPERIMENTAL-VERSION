@@ -9,10 +9,10 @@ name = input("\n Enter username / name: ")
 
 if name == "DEV":
     print("\n Welcome back, DEVELOPER.")
-    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], security [se], version [v], stable version of program [sv], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
+    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], stable version of program [sv], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
 else:
     print("Welcome, " + name)
-    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], security [se], version [v], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
+    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
 #This is to allow dev-specific things, user-input of name, and list all options.
 
 
@@ -33,9 +33,6 @@ while True:
 
     elif document == "s":
         print("\n Darknet Army Forum: Forum of [edgy] sellers, varying from different things | DigAI: An uncensored AI. Willing to help with any projects | WSS: A Darknet chatroom, full of a different types of people, and featured on videos from people like Tranium | Tor.Link: A site that is a hub for other sites | NEXTCCV.CC: A Darknet market ranging from pre-made scripts, to CCV | CRYPTBB: A forum and a market [FURTHER RESEARCH REQUIRED] | DEF-CON: A legal site that uses onion for protection, where those of Cybersecurity, government cyber jobs, and more come together | DIGITAL THRIFT SHOP (PL): A market selling cheap items on the Darknet ranging from fake IDs to stolen items of medium to high value | GERMANIA: A Germanic-based market selling items [FURTHER RESEARCH REQUIRED] | BLACKMARK: A market selling a high variety of items [FURTHER RESEARCH REQUIRED] | THE HIDDEN WIKI: Not a site on the Darknet but is a wiki-style hub to other sites that are Darknet| Onionindex: Not a site on the Darknet but is a site that leads to other sites that are Darknet [FURTHER RESEARCH REQUIRED] | BREAKING BAD FORUM: A forum and a market place selling items to make the illegal substance Breaking Bad revolves around, also selling recipes alike | Onionlinks: a Darknet hub that links to other Darknet sites | Onion Identity Services: A market that sells fake IDs, fake Passports, and more | Dread: An onion site themed like Reddit, the original went down and now only copy-cats are left | Excavator: A Darknet hub that leads to other sites, even those that should never be interacted with.")
-
-    elif document == "se":
-        print("\n Dark Net Army Forum: 6/10; Standard Darknet security issues, although, there is a few issues with possible federal agents/police overwatch | DigAI: 8/10; Possible privacy issues due to it originating from corporate hands, although it has been changed to be less corporate | WSS: 7.6/10; Besides standard security issues in Darknet sites, although there has been some overtly obvious sting operations regarding CSAM content | Tor.Link: 9.5/10; It being legal prevents government from looking at it's users most of the time[!!], although it can lead to unsafe sites | NEXTCCV.CC: 4/10; Likely scammers, honey-pots, and federal agents lurking | CRYPTBB: ?/10 | DEF-CON: 5/10; Depends on who you are. Due to it normally having federal agents, it might not be safe for certain types of people | DIGITAL THRIFT SHOP (PL): 4/10; Most likely is scammers, honey-pots, with federal agents lurking due to low prices of normally-high-priced items | GERMANIA: ?/10 | BLACKMARK: ?/10 | THE HIDDEN WIKI: 9/10; Standard web safety issues | Onionindex: 8.6/10; Some sites can/are unsafe and honey-pots. Plus security on the site itself seems lack-luster | BREAKING BAD FORUM: 7/10; Seems like average security, almost constant moderator activity | Onionlinks: 5/10; Normal security problems | Dread: 3/10; Mostly because only fakes who go by the same name exist, original site was took down | Excavator: 4/10; Leads to honey-pot sites, mostly foreign sites [foreign to Americans]")
 
     elif document == "d":
         print("\n The nature of this program is educational [for those who are not willing to get on the Darknet/Market] and a safety guide for those who are on the Darknet. The legality of this program is lawfully in a gray-zone. As it depends on the user's purpose of consuming this program.")
