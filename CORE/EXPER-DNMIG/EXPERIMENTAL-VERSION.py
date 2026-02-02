@@ -9,16 +9,17 @@ name = input("\n Enter username / name: ")
 if name == "DEV":
     print("\n Welcome back, DEVELOPER.")
     print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], stable version of program [sv], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
+    print("Experimental-Version-Only Option: Break Counter [bc]")
 else:
     print("Welcome, " + name)
     print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
+    print("Experimental-Version-Only Option: Break Counter [bc]")
 #This is to allow dev-specific things, user-input of name, and list all options.
 
 
 while True:
     document = input("\n Input: ")
     if document == "exit":
-        print("Program ending...")
         break
 #This allows the loop.
     elif document == "z":
@@ -56,6 +57,9 @@ while True:
 
     elif document == "rs":
         print("These are the resources from the Recommended page of the program, please refer to Recommended [r] and Documentation [d] before continue on this | Tor Browser: https://www.torproject.org/download/ | ProtonVPN: https://protonvpn.com/pricing | MullvadVPN: https://mullvad.net/en/download/vpn/")
+
+    elif document == "bc":
+        print("This is for the experiment / Unstable Version of the program only. DEV, please add the number of times the program broke to the counter | Break Counter: 1")
 
     else:
         print("Invalid selection, please select an option listed above, " + name + ".")
