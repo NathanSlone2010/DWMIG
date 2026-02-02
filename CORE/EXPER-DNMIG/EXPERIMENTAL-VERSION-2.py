@@ -23,7 +23,7 @@ def operations():
 
 
 def archetypes():
-    print("\n Tourist: New or visiting | Resident: Knows things that an actor would without being one | Operator: an actor, doing acts of crime or activities | Blue: Law Enforcement | Dog: Actors marketing sexual products | White Hat: Those not part of the law, doing vigilante behaviour.")
+    print("\n Tourist: New or visiting | Resident: Knows things that an actor would without being one | Operator: an actor, doing acts of crime or activities | Enforcer: Law Enforcement | Predator: Actors marketing sexual products.")
 
 
 def sites():
