@@ -6,12 +6,15 @@ def header():
 
 def dev_options():
     print("\n Welcome back, DEVELOPER.")
-    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], stable version of program [sv], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
+    print("\n All options: WARNING [w], zones [z], operations [o], archetypes [a], sites [s], version [v], stable version of program [sv], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
 
 
 def user_options(name):
     print("Welcome, " + name)
-    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
+    print("\n All options: WARNING [w], zones [z], operations [o], archetypes [a], sites [s], version [v], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
+
+def warning():
+    print("WARNING: THIS PROGRAM IS EXPERIMENTAL VERSION OF THE DARKNET & MARKET INDEX / GUIDE. VOID STUDIOS DOES NOT RECOMMEND USAGE OF THIS PROGRAM UNLESS A DEVELOPER OR HAVE BASIC PROGRAMMING KNOWLEDGE OF PYTHON CODING LANGUAGE.")
 
 
 def zones():
@@ -36,11 +39,6 @@ def documentation():
 
 def version():
     print("Version: Experimental Version")
-
-
-def stable_version():
-    print("This program is the Experimental Version of the project Darknet & Market Index / Guide by Nathan T. Slone. The following link leads to the Official Version, the recommended version of the program. | https://github.com/NathanSlone2010/DWMIG/tree/main/CORE")
-
 
 def developer():
     print("\n Warning: If you are a developer, please use the term 'DEV' as your name | All work done by you will be credited to you on GitHub.")
@@ -92,6 +90,9 @@ while True:
         print("Program ending...")
         break
 #This allows the loop.
+    elif document == "w":
+        warning()
+
     elif document == "z":
         zones()
 
