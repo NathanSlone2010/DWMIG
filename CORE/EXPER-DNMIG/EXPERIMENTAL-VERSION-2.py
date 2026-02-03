@@ -111,9 +111,6 @@ while True:
     elif document == "v":
         version()
 
-    elif document == "sv":
-        stable_version()
-
     elif document == "de":
         developer()
 
