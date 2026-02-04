@@ -1,18 +1,18 @@
 print("Darknet & Market Index / Guide")
-print("Version O-04.14.10")
+print("Version O-04.15.10")
 #Introduction
 
 
-name = input("\n Enter username / name: ")
+name = input("\n Enter username: ")
 #This is to allow actual name input
 
 
 if name == "DEV":
     print("\n Welcome back, DEVELOPER.")
-    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
+    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], news [n], exit")
 else:
     print("Welcome, " + name)
-    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
+    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], recommendations [r], news [n], exit")
 #This is to allow dev-specific things, user-input of name, and list all options.
 
 
@@ -41,7 +41,7 @@ while True:
         print("Version: Official Release")
 
     elif document == "h":
-        print("Version 00.00.00: added the introduction | Version 00.01.00: added the core options | Version 00.01li.01: fixed the options selection | 01.01.01: added the 'not in' function | 01.01.02: fixed some typos | 02.01.02: finishes the core options of the program. It is now ready to be released to the public. Updates of course will still take place | 02.02.01: changed program name from 'Dark Web & Market Index / Guide' to 'Darknet & Market Index / Guide' as it is better fitting | 02.03.02: Added a donation link, to further fund projects and machines I use to make the projects | 02.04.02: Added a 'developer' section | 02.05.02: Added an add-on for developers | 02.05.03: Added a clear input section, so users know what to do | 03.05.03: Added the loop mechanism | 03.06.03: Forgot to remove the placeholder for Version History, sorry | 03.06.03: I am never doing placeholders again | 3.06.04: Fixed some typos. Should be clean for now | 3.06.05: Changed a few security ratings based off research | 3.06.06: Fixed some issues I accidentally created | 3.07.06: Removed the redundant 'not in' statement | 3.07.07: Added version shorthand next to the version-numbers | 3.07.08: Fixed some typos | 4.07.08: Program officially launched. First number changed to align. Will be going by 'V-O<>, O for OFFICIAL | 4.08.08: Added a largest donation amount section and changes the bulletin list from '-' to '#' | 4.09.08: Added two more options, Recommendations and Developer Recommendations | 4.10.08: made input simple | 4.10.08: Made some changes in donator area and enter-name-area | 4.11.08: Changed 'Dark Net' to 'Darknet' to be linguistically accurate | 4.11.10: Changed Dark Net to Darknet inside the printed text itself | 4.12.10: Added a Resources [rs] page to the selection and fixed the versioning issue in the History [h] page | 4.13.10: Removed the Security page from the program for easier maintenance, quicker updating, and easier user-usage | 4.14.10: Changed things in thye Archetypes page.")
+        print("Version 00.00.00: added the introduction | Version 00.01.00: added the core options | Version 00.01li.01: fixed the options selection | 01.01.01: added the 'not in' function | 01.01.02: fixed some typos | 02.01.02: finishes the core options of the program. It is now ready to be released to the public. Updates of course will still take place | 02.02.01: changed program name from 'Dark Web & Market Index / Guide' to 'Darknet & Market Index / Guide' as it is better fitting | 02.03.02: Added a donation link, to further fund projects and machines I use to make the projects | 02.04.02: Added a 'developer' section | 02.05.02: Added an add-on for developers | 02.05.03: Added a clear input section, so users know what to do | 03.05.03: Added the loop mechanism | 03.06.03: Forgot to remove the placeholder for Version History, sorry | 03.06.03: I am never doing placeholders again | 3.06.04: Fixed some typos. Should be clean for now | 3.06.05: Changed a few security ratings based off research | 3.06.06: Fixed some issues I accidentally created | 3.07.06: Removed the redundant 'not in' statement | 3.07.07: Added version shorthand next to the version-numbers | 3.07.08: Fixed some typos | 4.07.08: Program officially launched. First number changed to align. Will be going by 'V-O<>, O for OFFICIAL | 4.08.08: Added a largest donation amount section and changes the bulletin list from '-' to '#' | 4.09.08: Added two more options, Recommendations and Developer Recommendations | 4.10.08: made input simple | 4.10.08: Made some changes in donator area and enter-name-area | 4.11.08: Changed 'Dark Net' to 'Darknet' to be linguistically accurate | 4.11.10: Changed Dark Net to Darknet inside the printed text itself | 4.12.10: Added a Resources [rs] page to the selection and fixed the versioning issue in the History [h] page | 4.13.10: Removed the Security page from the program for easier maintenance, quicker updating, and easier user-usage | 4.14.10: Changed things in thye Archetypes page | 4.15.10: Added a 'news' page.")
 
     elif document == "de":
         print("\n Warning: If you are a developer, please use the term 'DEV' as your name | All work done by you will be credited to you on GitHub.")
@@ -57,6 +57,9 @@ while True:
 
     elif document == "rs":
         print("These are the resources from the Recommended page of the program, please refer to Recommended [r] and Documentation [d] before continue on this | Tor Browser: https://www.torproject.org/download/ | ProtonVPN: https://protonvpn.com/pricing | MullvadVPN: https://mullvad.net/en/download/vpn/")
+
+    elif document == "n":
+        print("NEWS: Germany federal agents took control of a darknet site, which sold CSAM content | Warning: this page is updated every 48 hours manually")
 
     else:
         print("Invalid selection, please select an option listed above, " + name + ".")
