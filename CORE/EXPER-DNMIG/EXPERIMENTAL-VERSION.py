@@ -1,15 +1,17 @@
 print("Darknet & Market Index / Guide, Experimental")
 #Introduction
 
+
 name = input("\n Enter username / name: ")
 #This is to allow actual name input
+
 
 answer = input("Do you want to proceed? y / n: ")
 
 
 while True:
     if answer == "y":
-        print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
+        print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], news [n], exit")
         print("Experimental Version option: Break Counter [bc]")
     if answer == "n":
         break
@@ -19,6 +21,9 @@ while True:
     #The above allows a loop
     if document == "w":
         print("WARNING: THIS PROGRAM IS EXPERIMENTAL VERSION OF THE DARKNET & MARKET INDEX / GUIDE. VOID STUDIOS DOES NOT RECOMMEND USAGE OF THIS PROGRAM UNLESS A DEVELOPER OR HAVE BASIC PROGRAMMING KNOWLEDGE OF PYTHON CODING LANGUAGE.")
+
+    elif document == "n":
+        print("NEWS: Germany federal agents took control of a darknet site, which sold CSAM content | Warning: this page is updated every 48 hours manually")
 
     elif document == "z":
         print("\n White-Zone: legal | Borderline-Gray-Zone: Practices mixed with legality and with illegal. But even the illegal parts are truly legal, just extremely ambiguous | Gray-Zone: Where most practices lose the inhibition to care about the law, but still not diving into illegal things, just slowly diving into it | Borderline-Black-Zone: Where those who were in the gray zone stops caring fully. Diving deep into crime, often because of needs & wants | Black-Zone: Often called the 'Point of no Return' by those who are still in the White-Zone or Gray-Zone. Where everything has some illegality in it.")
