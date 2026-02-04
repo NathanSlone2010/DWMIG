@@ -6,14 +6,18 @@ name = input("\n Enter username / name: ")
 
 answer = input("Do you want to proceed? y / n: ")
 
+
 while True:
     if answer == "y":
         print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
         print("Experimental Version option: Break Counter [bc]")
+    if answer == "n":
+        break
     document = input("\n Selection: ")
     if document == "exit":
         break
-    elif document == "w":
+    #The above allows a loop
+    if document == "w":
         print("WARNING: THIS PROGRAM IS EXPERIMENTAL VERSION OF THE DARKNET & MARKET INDEX / GUIDE. VOID STUDIOS DOES NOT RECOMMEND USAGE OF THIS PROGRAM UNLESS A DEVELOPER OR HAVE BASIC PROGRAMMING KNOWLEDGE OF PYTHON CODING LANGUAGE.")
 
     elif document == "z":
