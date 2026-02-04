@@ -1,27 +1,18 @@
 print("Darknet & Market Index / Guide, Experimental")
 #Introduction
 
-
 name = input("\n Enter username / name: ")
 #This is to allow actual name input
 
-
-if name == "DEV":
-    print("\n Welcome back, DEVELOPER.")
-    print("\n All options: WARNING [w], zones [z], operations [o], archetypes [a], sites [s], version [v], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
-    print("Experimental-Version-Only Option: Break Counter [bc]")
-else:
-    print("Welcome, " + name)
-    print("\n All options: WARNING [w], zones [z], operations [o], archetypes [a], sites [s], version [v], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
-    print("Experimental-Version-Only Option: Break Counter [bc]")
-#This is to allow dev-specific things, user-input of name, and list all options.
-
+answer = input("Do you want to proceed? y / n: ")
 
 while True:
-    document = input("\n Input: ")
+    if answer == "y":
+        print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
+        print("Experimental Version option: Break Counter [bc]")
+    document = input("\n Selection: ")
     if document == "exit":
         break
-#This allows the loop.
     elif document == "w":
         print("WARNING: THIS PROGRAM IS EXPERIMENTAL VERSION OF THE DARKNET & MARKET INDEX / GUIDE. VOID STUDIOS DOES NOT RECOMMEND USAGE OF THIS PROGRAM UNLESS A DEVELOPER OR HAVE BASIC PROGRAMMING KNOWLEDGE OF PYTHON CODING LANGUAGE.")
 
@@ -60,6 +51,9 @@ while True:
 
     elif document == "rs":
         print("These are the resources from the Recommended page of the program, please refer to Recommended [r] and Documentation [d] before continue on this | Tor Browser: https://www.torproject.org/download/ | ProtonVPN: https://protonvpn.com/pricing | MullvadVPN: https://mullvad.net/en/download/vpn/")
+
+    elif document == "bc":
+        print("Break Counter: 1 | DEVs, please update this whenever the code breaks.")
 
     else:
         print("Invalid selection, please select an option listed above, " + name + ".")
