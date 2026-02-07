@@ -28,7 +28,7 @@ while True:
         time.sleep(1); print("4 SECOND[S] LEFT.")
         time.sleep(1); print("3 SECOND[S] LEFT.")
         time.sleep(1); print("2 SECOND[S] LEFT.")
-        time.sleep(1); print("PROGRAM SHUTTING DOWN [0 SECONDS LEFT]")
+        time.sleep(1); print("PROGRAM SHUTTING DOWN [1 SECONDS LEFT]")
         time.sleep(1); break
 #This allows the loop.
     elif document == "z":
