@@ -1,4 +1,13 @@
-print("Darknet & Market Index / Guide, Experimental")
+import time
+
+time.sleep(0.5); print("Welcome to the program! [6 SECONDS]")
+time.sleep(2); print("4 SECONDS LEFT.")
+time.sleep(1); print("3 SECONDS LEFT.")
+time.sleep(1); print("2 SECONDS LEFT.")
+time.sleep(0.5); print("PROGRAM ACTIVATED")
+
+
+print("\nDarknet & Market Index / Guide, Experimental")
 print("Version E")
 #Introduction
 
@@ -19,8 +28,13 @@ else:
 while True:
     document = input("\n Input: ")
     if document == "exit":
-        print("Program ending...")
-        break
+        print("Program ending... 5 SECONDS")
+        time.sleep(1); print("4 SECONDS LEFT.")
+        time.sleep(1); print("3 SECONDS LEFT.")
+        time.sleep(1); print("2 SECONDS LEFT.")
+        time.sleep(1); print("1 SECONDS LEFT.")
+        time.sleep(0); print("PROGRAM DEACTIVATED")
+        time.sleep(0.5); break
 #This allows the loop.
     elif document == "z":
         print("\n White-Zone: legal | Borderline-Gray-Zone: Practices mixed with legality and with illegal. But even the illegal parts are truly legal, just extremely ambiguous | Gray-Zone: Where most practices lose the inhibition to care about the law, but still not diving into illegal things, just slowly diving into it | Borderline-Black-Zone: Where those who were in the gray zone stops caring fully. Diving deep into crime, often because of needs & wants | Black-Zone: Often called the 'Point of no Return' by those who are still in the White-Zone or Gray-Zone. Where everything has some illegality in it.")
