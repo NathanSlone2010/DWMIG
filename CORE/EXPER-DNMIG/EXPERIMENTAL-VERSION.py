@@ -1,9 +1,12 @@
 import time
 
-time.sleep(0.5); print("Welcome to the program! [6 SECONDS]")
-time.sleep(2); print("4 SECONDS LEFT.")
+time.sleep(0.5); print("Welcome to the program! [8 SECONDS]")
+time.sleep(2); print("6 SECONDS LEFT.")
+time.sleep(1); print("5 SECONDS LEFT.")
+time.sleep(1); print("4 SECONDS LEFT.")
 time.sleep(1); print("3 SECONDS LEFT.")
 time.sleep(1); print("2 SECONDS LEFT.")
+time.sleep(1); print("1 SECONDS LEFT.")
 time.sleep(0.5); print("PROGRAM ACTIVATED")
 
 
