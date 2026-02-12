@@ -8,7 +8,7 @@ time.sleep(1); print("PROGRAM STARTING. [1 SECONDS]")
 time.sleep(0.5); print("PROGRAM START")
 #A countdown to start the program. Remove it if you want.
 
-print("\n Darknet & Market Index / Guide")
+print("\n Darknet Index / Guide")
 print("Version O-05.21.12")
 #Introduction
 
