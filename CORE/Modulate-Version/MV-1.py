@@ -1,7 +1,7 @@
 import time
 
 print("\n Darknet & Market Index / Guide, Modulate")
-print("Version MV-1.1.0")
+print("Version MV-1.0.1")
 #Introduction
 
 
@@ -34,10 +34,10 @@ while True:
         print("Version: Modulated Version [MV]")
 
     elif document == "h":
-        print("Version 01.00.00: Created Modulated Version.")
+        print("Version 01.00.00: Created Modulated Version | 1.0.1: Fixed some typos and versioning error.")
 
     elif document == "rs":
-        print("Pase refer Documentation [d] before continue on this | Tor Browser: https://www.torproject.org/download/ | ProtonVPN: https://protonvpn.com/pricing | MullvadVPN: https://mullvad.net/en/download/vpn/")
+        print("Please refer to Documentation [d] before continuing on this | Tor Browser: https://www.torproject.org/download/ | ProtonVPN: https://protonvpn.com/pricing | MullvadVPN: https://mullvad.net/en/download/vpn/")
 
     else:
         print("Invalid selection, please select an option listed above.")
