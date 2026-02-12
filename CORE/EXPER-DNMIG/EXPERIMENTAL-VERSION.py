@@ -12,7 +12,7 @@ time.sleep(1); print("1 SECONDS LEFT.")
 time.sleep(0.5); print("PROGRAM ACTIVATED")
 
 
-print("\nDarknet & Market Index / Guide, Experimental")
+print("\nDarknet Index / Guide, Experimental")
 print("Version E")
 #Introduction
 
