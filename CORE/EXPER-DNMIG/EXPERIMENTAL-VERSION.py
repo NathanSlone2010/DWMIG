@@ -1,7 +1,9 @@
 import time
 
-time.sleep(0.5); print("Welcome to the program! [8 SECONDS]")
-time.sleep(2); print("6 SECONDS LEFT.")
+time.sleep(0.5); print("Welcome to the program! [10 SECONDS]")
+time.sleep(2); print("8 SECONDS LEFT.")
+time.sleep(1); print("7 SECONDS LEFT.")
+time.sleep(1); print("6 SECONDS LEFT.")
 time.sleep(1); print("5 SECONDS LEFT.")
 time.sleep(1); print("4 SECONDS LEFT.")
 time.sleep(1); print("3 SECONDS LEFT.")
@@ -76,7 +78,7 @@ while True:
         print("These are the resources from the Recommended page of the program, please refer to Recommended [r] and Documentation [d] before continue on this | Tor Browser: https://www.torproject.org/download/ | ProtonVPN: https://protonvpn.com/pricing | MullvadVPN: https://mullvad.net/en/download/vpn/")
 
     else:
-        print("Invalid selection, please select an option listed above, " + name + ".")
+        print(document + " is an invalid selection, please select an option listed above, " + name + ".")
 #These are the options.
 
 
