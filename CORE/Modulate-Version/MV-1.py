@@ -40,7 +40,7 @@ while True:
         print("Please refer to Documentation [d] before continuing on this | Tor Browser: https://www.torproject.org/download/ | ProtonVPN: https://protonvpn.com/pricing | MullvadVPN: https://mullvad.net/en/download/vpn/")
 
     else:
-        print("Invalid selection, please select an option listed above.")
+        print("Invalid.")
 #These are the options.
 
 
