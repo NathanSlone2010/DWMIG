@@ -21,10 +21,10 @@ name = input("\n Enter username / name: ")
 #This is to allow actual name input
 
 
-if name == "DEV":
+if name in ["DEV", "Dev", "dev"]:
     print("\n Welcome back, DEVELOPER.")
     print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], stable version of program [sv], documentation [d], Resources [rs], donations [do], developer [de], developer recommendations [dr], exit")
-else:
+if name not in ["DEV", "Dev", "dev"]:
     print("Welcome, " + name)
     print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
 #This is to allow dev-specific things, user-input of name, and list all options.
