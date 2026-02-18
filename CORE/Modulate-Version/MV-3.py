@@ -1,5 +1,5 @@
 import time
-print("\n All options: zones [z], sites [s], version [v], history [h], documentation [d], resources [rs], exit")
+print("\n All options: zones [z], sites [s], version [v], history [h], resources [rs], exit")
 while True:
     document = input("\n Input: ")
     if document == "exit":
@@ -13,6 +13,6 @@ while True:
     elif document == "h":
         print("2.1.1: Cut down the bloat even more, probably made it harder to read the code though | 3.2.1: Cut down bloat. Ability to read the code went skyrocketing down [even cut out some history] | 3.3.1: Cut down the bloat some more...")
      elif document == "rs":
-        print("Please refer to Documentation [d] before continuing on this | Tor Browser: https://www.torproject.org/download/ | ProtonVPN: https://protonvpn.com/pricing | MullvadVPN: https://mullvad.net/en/download/vpn/")
+        print("Tor Browser: https://www.torproject.org/download/ | ProtonVPN: https://protonvpn.com/pricing | MullvadVPN: https://mullvad.net/en/download/vpn/")
     else:
         print("Invalid.")
