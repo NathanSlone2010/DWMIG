@@ -9,7 +9,7 @@ time.sleep(1); print("4 SECONDS LEFT.")
 time.sleep(1); print("3 SECONDS LEFT.")
 time.sleep(1); print("2 SECONDS LEFT.")
 time.sleep(1); print("1 SECONDS LEFT.")
-time.sleep(0.5); print("PROGRAM ACTIVATED")
+time.sleep(0.5); print("\033[1;34mPROGRAM ACTIVATED\033[0m")
 
 
 print("\nDarknet Index / Guide, Experimental")
