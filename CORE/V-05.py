@@ -5,7 +5,7 @@ time.sleep(1); print("PROGRAM STARTING.... [4 SECONDS]")
 time.sleep(1); print("PROGRAM STARTING... [3 SECONDS]")
 time.sleep(1); print("PROGRAM STARTING.. [2 SECONDS]") 
 time.sleep(1); print("PROGRAM STARTING. [1 SECONDS]")
-time.sleep(0.5); print("PROGRAM START")
+time.sleep(0.5); print("\033[1;34mPROGRAM START\033[0m")
 #A countdown to start the program. Remove it if you want.
 
 print("\n Darknet Index / Guide")
