@@ -25,7 +25,7 @@ name = input("\n[Enter username] ")
 
 if name in ["DEV", "Dev", "dev"]:
     print("\n Welcome back, DEVELOPER.")
-    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], developer [dr], developer recommendations [dr], exit")
+    print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], developer [dr], developer recommendations [ds], exit")
 if name not in ["DEV", "Dev", "dev"]:
     print("Welcome, " + name + ", enjoy your usage.")
     print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
