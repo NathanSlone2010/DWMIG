@@ -1,7 +1,9 @@
+print("\033[91mNO ERRORS RETURNED\033[0m")
 print("\n All options: zones [z], sites [s], version [v], history [h], resources [rs], exit")
 while True:
     document = input("\n Input: ")
     if document == "exit":
+        print("\nPROGRAM END")
         break
     elif document == "z":
         print("\n White-Zone: legal | Borderline-Gray-Zone: Practices mixed with legality and with illegal. But even the illegal parts are truly legal, just extremely ambiguous | Gray-Zone: Where most practices lose the inhibition to care about the law, but still not diving into illegal things, just slowly diving into it | Borderline-Black-Zone: Where those who were in the gray zone stops caring fully. Diving deep into crime, often because of needs & wants | Black-Zone: Often called the 'Point of no Return' by those who are still in the White-Zone or Gray-Zone. Where everything has some illegality in it.")
