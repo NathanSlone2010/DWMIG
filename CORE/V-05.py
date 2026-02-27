@@ -6,21 +6,22 @@ time.sleep(1); print("PROGRAM STARTING... [3 SECONDS]")
 time.sleep(1); print("PROGRAM STARTING.. [2 SECONDS]") 
 time.sleep(1); print("PROGRAM STARTING. [1 SECONDS]")
 time.sleep(0.5); print("\033[91mPROGRAM INITIALIZED\033[0m")
+time.sleep(0.2); print("\033[91mNO ERRORS RETURNED\033[0m")
 #A countdown to start the program. Remove it if you want.
 
 
 print("\n\033[92mDarknet Index / Guide\033[0m")
 print("\033[37mVersion O-05.23.13\033[0m")
-#Introduction
+#Introduction.
 
 
 now = datetime.now()
 print(now.strftime("\n DATE: %Y-%m-%d"))
-#Allows the user to see the date
+#Allows the date to be printed.
 
 
 name = input("\n[Enter username] ")
-#This is to allow actual name input
+#This allows name input.
 
 
 if name in ["DEV", "Dev", "dev"]:
