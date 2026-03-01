@@ -3,20 +3,21 @@ from datetime import datetime
 now = datetime.now()
 
 
-print("\033[91mNO_ERRORS_RETURNED\033[0m")
-print("\033[91mDevelopers: Please input the letters 'DEV' in name input.\033[0m")
-print(now.strftime("\033[91mDATE: %Y-%m-%d\033[0m"))
+print("NO_ERRORS_RETURNED")
+print("evelopers: Please input the letters 'DEV' in name input")
+print(now.strftime("DATE: %Y-%m-%d"))
+
 
 time.sleep(1); print("PROGRAM_STARTING.... [4 SECONDS]")
 time.sleep(1); print("PROGRAM_STARTING... [3 SECONDS]")
 time.sleep(1); print("PROGRAM_STARTING.. [2 SECONDS]") 
 time.sleep(1); print("PROGRAM_STARTING. [1 SECONDS]")
-time.sleep(0.5); print("\033[91mPROGRAM_INITIALIZED\033[0m")
+time.sleep(0.5); print("PROGRAM_INITIALIZED")
 #A countdown to start the program. Remove it if you want.
 
 
 print("\n\033[92mDarknet Index / Guide\033[0m")
-print("\033[37mVersion O-05.23.13\033[0m")
+print("Version O-05.23.13")
 #Introduction.
 
 
@@ -24,29 +25,29 @@ print(now.strftime("\n DATE: %Y-%m-%d"))
 #Allows the date to be printed.
 
 
-name = input("\n[Enter username] ")
+name = input("\n[Enter username]")
 #This allows name input.
 
 
-if name in ["DEV", "Dev", "dev", "dEv", "dEV", "DEv", "DeV", "Developer", "DEVELOPER"]:
+if name in ["DEV", "Dev", "dev"]:
     print("\n Welcome back, DEVELOPER.")
     print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], developer [dr], developer recommendations [ds], exit")
-if name not in ["DEV", "Dev", "dev", "dEv", "dEV", "DEv", "DeV", "Developer", "DEVELOPER"]:
-    print("Welcome, " + name + ", enjoy your usage.")
+if name not in ["DEV", "Dev", "dev"]:
+    print("Welcome, " + name + ", enjoy application usage.")
     print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
 #This is to allow dev-specific things, user-input of name, and list all options.
 
 
 while True:
-    document = input("\n[Input] ")
+    document = input("\n[Input]")
     if document == "exit":
-        print("\033[91mProgram will end. You cannot revert the command.\033[0m")
-        time.sleep(1); print("5 SECOND[S] LEFT.")
-        time.sleep(1); print("4 SECOND[S] LEFT.")
-        time.sleep(1); print("3 SECOND[S] LEFT.")
-        time.sleep(1); print("2 SECOND[S] LEFT.")
-        time.sleep(1); print("PROGRAM SHUTTING DOWN [0 SECONDS LEFT]")
-        time.sleep(0.5); print ("\033[91mPROGRAM ENDED\033[0m")
+        print("Program will end. You cannot revert the command")
+        time.sleep(1); print("5_SECOND[S]_LEFT.")
+        time.sleep(1); print("4_SECOND[S]_LEFT.")
+        time.sleep(1); print("3_SECOND[S]_LEFT.")
+        time.sleep(1); print("2_SECOND[S]_LEFT.")
+        time.sleep(1); print("PROGRAM_SHUTTING_DOWN [0_SECONDS_LEFT]")
+        time.sleep(0.5); print ("PROGRAM_ENDED")
         time.sleep(0); break
 #This allows the loop.
     elif document == "z":
