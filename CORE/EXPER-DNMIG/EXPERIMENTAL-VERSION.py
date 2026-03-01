@@ -1,15 +1,19 @@
 import time
 
-time.sleep(0.5); print("Welcome to the program! [10 SECONDS]")
-time.sleep(2); print("8 SECONDS LEFT.")
-time.sleep(1); print("7 SECONDS LEFT.")
-time.sleep(1); print("6 SECONDS LEFT.")
-time.sleep(1); print("5 SECONDS LEFT.")
-time.sleep(1); print("4 SECONDS LEFT.")
-time.sleep(1); print("3 SECONDS LEFT.")
-time.sleep(1); print("2 SECONDS LEFT.")
-time.sleep(1); print("1 SECONDS LEFT.")
-time.sleep(0.5); print("\033[1;34mPROGRAM ACTIVATED\033[0m")
+
+print("\033[91mNO_ERROR_RETURNED\033[0m")
+
+
+time.sleep(0.5); print("Welcome_to_the_program! [10 SECONDS]")
+time.sleep(2); print("8_SECONDS_LEFT.")
+time.sleep(1); print("7_SECONDS_LEFT.")
+time.sleep(1); print("6_SECONDS_LEFT.")
+time.sleep(1); print("5_SECONDS_LEFT.")
+time.sleep(1); print("4_SECONDS_LEFT.")
+time.sleep(1); print("3_SECONDS_LEFT.")
+time.sleep(1); print("2_SECONDS_LEFT.")
+time.sleep(1); print("1_SECONDS_LEFT.")
+time.sleep(0.5); print("\033[1;34mPROGRAM_ACTIVATED\033[0m")
 
 
 print("\nDarknet Index / Guide, Experimental")
