@@ -4,7 +4,7 @@ now = datetime.now()
 
 
 print("NO_ERRORS_RETURNED")
-print("evelopers: Please input the letters 'DEV' in name input")
+print("Developers: Please input the letters 'DEV' in name input")
 print(now.strftime("DATE: %Y-%m-%d"))
 
 
@@ -16,7 +16,7 @@ time.sleep(0.5); print("PROGRAM_INITIALIZED")
 #A countdown to start the program. Remove it if you want.
 
 
-print("\n\033[92mDarknet Index / Guide\033[0m")
+print("\nDarknet_Index/Guide")
 print("Version O-05.23.13")
 #Introduction.
 
