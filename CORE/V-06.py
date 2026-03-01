@@ -4,7 +4,7 @@ now = datetime.now()
 #Modules required, plus the datetime required
 
 print("\nD.I.G Version 6.23.14")
-print("[C]Copyright Void Studios 2025-2026")
+print("Copyright Void Studios 2025-2026")
 time.sleep(0.6); print("\nNO ERRORS")
 print("DEVELOPERS ENTER DEV AS NAME")
 print(now.strftime("DATE: %y-%m-%d"))
