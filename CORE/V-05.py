@@ -1,9 +1,11 @@
 import time
 from datetime import datetime
+now = datetime.now()
 
 
 print("\033[91mNO_ERRORS_RETURNED\033[0m")
-
+print("\033[91mDevelopers: Please input the letters 'DEV' in name input.\033[0m")
+print(now.strftime("\033[91mDATE: %Y-%m-%d\033[0m"))
 
 time.sleep(1); print("PROGRAM_STARTING.... [4 SECONDS]")
 time.sleep(1); print("PROGRAM_STARTING... [3 SECONDS]")
@@ -18,7 +20,6 @@ print("\033[37mVersion O-05.23.13\033[0m")
 #Introduction.
 
 
-now = datetime.now()
 print(now.strftime("\n DATE: %Y-%m-%d"))
 #Allows the date to be printed.
 
@@ -27,10 +28,10 @@ name = input("\n[Enter username] ")
 #This allows name input.
 
 
-if name in ["DEV", "Dev", "dev"]:
+if name in ["DEV", "Dev", "dev", "dEv", "dEV", "DEv", "DeV", "Developer", "DEVELOPER"]:
     print("\n Welcome back, DEVELOPER.")
     print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], developer [dr], developer recommendations [ds], exit")
-if name not in ["DEV", "Dev", "dev"]:
+if name not in ["DEV", "Dev", "dev", "dEv", "dEV", "DEv", "DeV", "Developer", "DEVELOPER"]:
     print("Welcome, " + name + ", enjoy your usage.")
     print("\n All options: zones [z], operations [o], archetypes [a], sites [s], version [v], history [h], documentation [d], Resources [rs], donations [do], recommendations [r], exit")
 #This is to allow dev-specific things, user-input of name, and list all options.
@@ -39,7 +40,7 @@ if name not in ["DEV", "Dev", "dev"]:
 while True:
     document = input("\n[Input] ")
     if document == "exit":
-        print("Program will end. You cannot revert the command.")
+        print("\033[91mProgram will end. You cannot revert the command.\033[0m")
         time.sleep(1); print("5 SECOND[S] LEFT.")
         time.sleep(1); print("4 SECOND[S] LEFT.")
         time.sleep(1); print("3 SECOND[S] LEFT.")
