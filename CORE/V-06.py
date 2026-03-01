@@ -4,7 +4,7 @@ now = datetime.now()
 #Modules required, plus the datetime required.
 
 
-print("NO ERRORS")
+print("\nNO ERRORS")
 print("DEVELOPER ENTER 'DEV' AS NAME")
 print(now.strftime("DATE: %y-%m-%d"))
 #If users see this, program ran correctly
