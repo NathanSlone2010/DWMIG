@@ -36,7 +36,7 @@ print("\n ALL OPTIONS: ZONES [Z], OPERATIONS [O], ARCHTYPES [A], SITES [S], VERS
 
 
 while True:
-    document = input("\n[Input] ").upper()
+    document = input("\nC: ").upper()
     if document == "EXIT":
         print("Program will end. You cannot revert the command")
         time.sleep(1); print("3 SECOND[S] LEFT")
