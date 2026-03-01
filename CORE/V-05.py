@@ -1,15 +1,15 @@
 import time
 from datetime import datetime
 
-time.sleep(0.2); print("\033[91mNO ERRORS RETURNED\033[0m")
-#If the user sees this, then fhe program compiled correctly
+
+print("\033[91mNO_ERRORS_RETURNED\033[0m")
 
 
-time.sleep(1); print("PROGRAM STARTING.... [4 SECONDS]")
-time.sleep(1); print("PROGRAM STARTING... [3 SECONDS]")
-time.sleep(1); print("PROGRAM STARTING.. [2 SECONDS]") 
-time.sleep(1); print("PROGRAM STARTING. [1 SECONDS]")
-time.sleep(0.5); print("\033[91mPROGRAM INITIALIZED\033[0m")
+time.sleep(1); print("PROGRAM_STARTING.... [4 SECONDS]")
+time.sleep(1); print("PROGRAM_STARTING... [3 SECONDS]")
+time.sleep(1); print("PROGRAM_STARTING.. [2 SECONDS]") 
+time.sleep(1); print("PROGRAM_STARTING. [1 SECONDS]")
+time.sleep(0.5); print("\033[91mPROGRAM_INITIALIZED\033[0m")
 #A countdown to start the program. Remove it if you want.
 
 
