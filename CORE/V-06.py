@@ -5,7 +5,7 @@ now = datetime.now()
 
 
 print("\nNO ERRORS")
-print("DEVELOPER ENTER 'DEV' AS NAME")
+print("DEVELOPERS ENTER 'DEV' AS NAME")
 print(now.strftime("DATE: %y-%m-%d"))
 #If users see this, program ran correctly
 
@@ -41,7 +41,8 @@ while True:
         print("Program will end. You cannot revert the command")
         time.sleep(1); print("3 SECOND[S] LEFT")
         time.sleep(1); print("2 SECOND[S] LEFT")
-        time.sleep(1); print("PROGRAM SHUTTING DOWN")
+        time.sleep(1); print("1 SECOND[S] LEFT")
+        time.sleep(0); print("PROGRAM SHUTTING DOWN")
         break
 #This allows the loop.
     elif document == "Z":
@@ -83,3 +84,4 @@ while True:
 
 
 #write words here to find it anywhere in the code:
+#!!The word-search function does not work in terminal-based editors!!
