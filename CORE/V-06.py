@@ -3,21 +3,16 @@ from datetime import datetime
 now = datetime.now()
 #Modules required, plus the datetime required
 
-print("\nD.I.G Version 6.23.14")
+time.sleep(1.5); print("NO ERRORS RETURNED")
+print("\nDarknet Index / Guide  Version 6.23.14")
 print("Copyright Void Studios 2025-2026")
-time.sleep(0.6); print("\nNO ERRORS")
-print("DEVELOPERS ENTER DEV AS NAME")
 print(now.strftime("DATE: %y-%m-%d"))
 #If users see this, program started correctly
 
 
-time.sleep(0.5); print("PROGRAM STARTING")
+time.sleep(0.5); print("\nPROGRAM STARTING")
 print("INITIALIZED\n")
 #Let users know program is starting
-
-
-print("DARKNET INDEX / GUIDE")
-#Introduction
 
 
 name = input("[NAME] ").upper()
